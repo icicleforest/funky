@@ -1,11 +1,13 @@
 #!/usr/bin/python
 
-try:
-    from setuptools import setup, Extension
-    has_setuptools = True
-except ImportError:
-    from distutils.core import setup, Extension
-    has_setuptools = False
+from setuptools import setup, find_packages
+
+#try:
+#    from setuptools import setup, Extension
+#    has_setuptools = True
+#except ImportError:
+#    from distutils.core import setup, Extension
+#    has_setuptools = False
 
 version_string = '0.0.2'
 
